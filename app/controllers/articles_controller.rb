@@ -23,7 +23,7 @@ class ArticlesController < ApplicationController
 			flash.notice = "Article '#{@article.title}' Article created"
 
 
-			redirect_to articles_path(@comment.article)
+			redirect_to articles_path(@article)
 
 		end
 
